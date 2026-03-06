@@ -20,7 +20,7 @@ config({
 
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL],
+    origin: "https://preeminent-torrone-b6b34d.netlify.app",
     methods: ["POST", "GET", "PUT", "DELETE"],
     credentials: true,
   })
